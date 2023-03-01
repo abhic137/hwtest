@@ -16,6 +16,7 @@ public class Palindrome
 		// with the word to be searched
 			if (temp.compareTo(word) == 0)
 			{
+				System.out.println(word);
 				return true;
 			}
 		}

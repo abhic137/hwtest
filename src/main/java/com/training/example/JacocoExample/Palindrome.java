@@ -21,6 +21,5 @@ public class Palindrome
 		}
 				return false;
 	}
-				System.out.println(word);
 		
 }

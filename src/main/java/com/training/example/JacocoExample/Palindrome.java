@@ -3,7 +3,7 @@ public class Palindrome
 {
 
 // Function that returns true if the word is found
-	printf("hello world");
+	System.out.println("hello world");
 	static boolean isWordPresent(String sentence, String word)
 	{
 	// To break the sentence in words

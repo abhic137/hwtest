@@ -13,20 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  <modules>
-    <module>server</module>
-    <module>webapp</module>
-  </modules>
-  
-  <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
- 
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

@@ -36,13 +36,13 @@ public class PalindromeTest{
     @Test
     public void testWordInStringCaseSensitive() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("hello world"));
+        assertFalse(sentence.contains("hello"));
     }
 
     @Test
     public void testWordInStringCaseInsensitive() {
         String sentence = "hello world";
-        assertTrue(sentence.toLowerCase().contains("Hello"));
+        assertTrue(sentence.toLowerCase().contains("hello"));
     }
     
     @Test

@@ -14,7 +14,7 @@ public class PalindromeTest{
 public void checkstr()
 {
     Palindrome palindromeTester = new Palindrome();
-    assertTrue(palindromeTester.isWordPresent(" hello world","hello"));
+    assertTrue(palindromeTester.isWordPresent(" hi world","hello"));
 	
 }
 	@Test
@@ -26,7 +26,7 @@ public void checkstr()
     @Test
     public void testWordNotInString() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("cat"));
+        assertFalse(sentence.contains("world"));
     }
 
     @Test
@@ -50,7 +50,7 @@ public void checkstr()
     @Test
     public void testWordInStringCaseInsensitive() {
         String sentence = "hello world";
-        assertTrue(sentence.toLowerCase().contains("hello"));
+        assertTrue(sentence.toLowerCase().contains("Hello"));
     }
     
     @Test

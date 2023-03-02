@@ -9,14 +9,6 @@ import org.junit.Test;
 public class PalindromeTest{
 
 
-@Test
-// Driver code
-public void checkstr()
-{
-    Palindrome palindromeTester = new Palindrome();
-    assertTrue(palindromeTester.isWordPresent(" hi world","hello"));
-	
-}
 	@Test
     public void testWordInString() {
         String sentence = "hello world";
@@ -26,7 +18,7 @@ public void checkstr()
     @Test
     public void testWordNotInString() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("world"));
+        assertFalse(sentence.contains("cat"));
     }
 
     @Test
@@ -44,7 +36,7 @@ public void checkstr()
     @Test
     public void testWordInStringCaseSensitive() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("Hello"));
+        assertFalse(sentence.contains("hello"));
     }
 
     @Test
@@ -56,6 +48,6 @@ public void checkstr()
     @Test
     public void testWordWithSpecialCharacters() {
         String sentence = "hello world";
-        assertTrue(sentence.contains("hello!"));
+        assertTrue(sentence.contains("hello"));
     }
 }

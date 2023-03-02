@@ -28,12 +28,6 @@ public class PalindromeTest{
     }
 
     @Test
-    public void testNullString() {
-        String sentence = null;
-        assertFalse(sentence.contains("hello"));
-    }
-
-    @Test
     public void testWordInStringCaseInsensitive() {
         String sentence = "hello world";
         assertTrue(sentence.toLowerCase().contains("hello"));
